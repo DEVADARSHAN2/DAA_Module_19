@@ -5,23 +5,35 @@ To write a python program for a search function with parameter list name and the
 
 
 
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
-
+## Algorithm  
+1.Loop through each element in the tuple.
+2.Compare the current element with the target value x.
+3.If the element matches x, print that the element was found and stop the search.
+4.If no match is found after checking all elements, print that the element was not found.
+5.End the function.
 ## Program:
+```def search(tuple1,x):
+    for value in tuple1:
+        if(value==x):
+            print("Tuple: %d found"%x)
+            return 0
+    print("Tuple: %d not found"%x)
+    
+List=[]
+n=int(input())
+for i in range(n):
+    List.append(int(input()))
+tuple1=tuple(List)
+x=float(input())
+search(tuple1,x)
 ```
-/*
-Program to implement a search function with parameter list name and the value to be searched using string values.
-Developed by: 
-Register Number:  
-*/
+```
+Developed by: DEVADARSHAN A S
+Register Number: 212222110007 
 ```
 
 ## Output:
+![image](https://github.com/user-attachments/assets/73d310e1-2370-4860-83c2-4e46c3ed5bb3)
 
 
 
