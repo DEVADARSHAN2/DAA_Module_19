@@ -42,6 +42,7 @@ quick_sort(arr1, 0, len(arr1)-1)
 print("Sorted List\n",arr1)
 
 ```
+```
 Developed by: DEVADARSHAN A S
 Register Number: 212222110007 
 
